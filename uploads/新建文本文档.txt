@@ -1,0 +1,31 @@
+nowtime=1620530496790
+verify=6b4be7e4
+name="verify"   6b4be7e4
+name="_hexie"   474ecc4d
+
+http://119.45.124.113:8888/HYJkCkri
+XXpG5Ymo
+NvEGDyLT
+
+
+https://www.dy114.com/douyin
+
+
+
+
+面板地址: http://192.168.72.128:8888/97baee9f
+username: iguwei5z
+password: ee1a6494
+
+
+cd /www/wwwroot/ecloud2/
+sudo chmod a+x *
+./start.sh test
+
+1. ./start.sh status 查看云测运?状态
+2. ./start.sh stop 停?云测运?
+3. ./start.sh restart 重启云测服务
+
+
+
+wxe214057500fd722a
