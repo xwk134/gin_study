@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
+	"github.com/sirupsen/logrus"
 	"reflect"
 )
 
@@ -70,6 +71,7 @@ func _getList(c *gin.Context) {
 	}
 
 	c.JSON(200, Response{0, articleList, "成功"})
+	logrus.Info("成功")
 }
 
 // _getDetail 文章详情
@@ -133,6 +135,8 @@ func _delete(c *gin.Context) {
 
 func main() {
 	router := gin.Default()
+	//添加中间件，主要实现log日志的生成
+
 	router.GET("/articles", _getList)        // 文章列表
 	router.GET("/articles/:id", _getDetail)  // 文章详情
 	router.POST("/articles/create", _create) // 创建文章

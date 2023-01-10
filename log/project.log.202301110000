@@ -1,0 +1,2 @@
+[2023-01-11 00:06:22] [info] [main.go:6 main.main] This is a logger
+[2023-01-11 00:06:22] [error] [main.go:7 main.main] is logger
